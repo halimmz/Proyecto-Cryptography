@@ -14,9 +14,9 @@ if not os.path.exists("archivos"):
 
 # Cifrar el Texto
 mensaje = texto.encode()
-print("-----------------------------------")
+print("")
 print("Texto a Cifrar:", texto)
-print("-----------------------------------")
+print("")
 
 mensaje_cifrado = cipher.encrypt(mensaje)
 print("Texto Cifrado:", mensaje_cifrado)
